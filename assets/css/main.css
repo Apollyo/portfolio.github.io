@@ -62,9 +62,6 @@ hr {
     border: 1px solid #7E4112;
 }
 
-main {
-    padding: 0;
-}
 
 section {
     color: #7E4112;
@@ -183,9 +180,6 @@ footer {
 
 @media screen and (max-width: 1024px){
 
-    main {
-        padding: 0 0vw;
-    }
 
     header img {
         width: 30vmax;
