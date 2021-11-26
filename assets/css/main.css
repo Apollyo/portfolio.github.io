@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap');
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body, html {
+    height: 100vh;
+}
+
+h1 {
+    font-family: 'Dancing Script', cursive;
+    font-weight: 700;
+    color: #7E4112;
+}
+
+h2, h3, h4 {
+    font-family: 'Merriweather', serif;
+    font-weight: 700;
+    color: #7E4112;
+}
+
+p, a {
+    color: #7E4112;
+    font-family: 'Merriweather', serif;
+    font-weight: 400;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+body {
+    background-color: #FDE9C4;
+    padding: 7vw 0;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+header img {
+    width: 13vmax;
+    height: auto;
+}
+
+header h1 {
+    text-align: center;
+    margin: 15px;
+}
+
+hr {
+    color: #7E4112;
+    width: 50px;
+    display: block;
+    margin: auto;
+    border: 1px solid #7E4112;
+}
+
+main {
+    padding: 0;
+}
+
+section {
+    color: #7E4112;
+    margin: 15px 0;
+}
+
+section header {
+    text-align: center;
+}
+
+section header h2 {
+    margin-bottom: 10px;
+}
+
+#description {
+    padding: 0 15vw;
+}
+
+section .button-container {
+    display: flex;
+    justify-content: center;
+    margin: 5vh 0;
+}
+
+section .button-container a {
+    background-color: #7E4112;
+    color: #FDE9C4;
+    padding: 15px 30px;
+    border-radius: 5px ;
+    display: flex;
+    align-items: center;
+}
+
+section .button-container a img {
+    margin-right: 10px;
+}
+
+.social-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.social-container a {
+    margin: 0 10px;
+}
+
+#skills header {
+    margin-bottom: 30px;
+}
+
+#skills-container {
+    display: flex;
+    justify-content: center;
+}
+
+#skills-container img {
+    margin: 0 10px;
+}
+
+#skills p {
+    margin: 15px 0;
+    text-align: center;
+}
+
+#projects-container header {
+    margin-bottom: 30px;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 75px;
+    width: 50%;
+}
+
+.card header video {
+    border: 10px solid #7E4112;
+    border-radius: 10px;
+    width: 75%;
+}
+
+.card header img {
+    border: 10px solid #7E4112;
+    border-radius: 10px;
+    width: 75%;
+}
+
+.card h4 {
+    margin-bottom: 15px;
+}
+
+.card p {
+    text-align: center;
+}
+
+
+footer {
+    margin-top: 10vh;
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+
+@media screen and (max-width: 1024px){
+
+    main {
+        padding: 0 15vw;
+    }
+
+    header img {
+        width: 30vmax;
+    }
+
+    .card header video {
+        width: 100%;
+    }
+
+    .card-container {
+        display: block;
+    }
+
+}
